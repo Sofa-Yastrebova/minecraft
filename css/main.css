@@ -1,0 +1,369 @@
+/* font-family: 'Noto Sans KR', sans-serif; */
+body {
+    background-color: #000;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.main-header {
+}
+
+.container {
+}
+
+.main-header__content {
+}
+
+.main-header__top {
+ 
+    text-align: right;
+}
+
+.link-action {
+    color:#ffffff;
+}
+
+.main-header__bottom {
+    background-image: url("/img/header-back-g.png");
+}
+
+.main-header__bottom .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 300px;
+    display: inline-block;
+}
+
+.main-menu {
+}
+
+.main-menu__list-links {
+    display: flex;
+    column-gap: 20px;
+}
+
+.main-menu__item {
+}
+
+.main-menu__holder-img {
+    display: inline-block;
+    width: 100px;
+    vertical-align: middle;
+}
+
+.main-menu__text {
+    color:#ffffff;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+/* ==========main-information */
+
+.main-information {
+
+
+}
+.main-information__content {
+    
+}
+    
+
+.main-information__image {
+    background-image:linear-gradient(180deg,rgba(0, 0, 0, 0.3) 0%,rgba(0, 0, 0, 0.3) 0.01%, rgba(18, 18, 21, 0.1) 100%),url("../img/minecraft-main-background.jpg");
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+ }
+
+.discription {
+    text-align: center;
+    max-width: 80%;
+    text-shadow: 4px 4px 2px #000 ;
+}
+
+
+.discription__title {
+    font-size: 32px;
+    color: #ffffff;
+}
+
+
+.discription__text {
+    color: #ffffff;
+    font-size: 26px;
+    
+}
+
+
+
+/* slider */
+
+.resurs {
+    padding-bottom: 30px;
+    
+}
+
+.resurs-content {
+}
+.slider {
+    width: 50%;
+    margin:0 auto ;
+    border: 10px double #ffffff;
+    border-radius:20px;
+    box-shadow:4px 4px 6px #bca4a4 ;
+    position: relative;
+}
+
+.main-title {
+    font-size: 30px;
+    border-radius: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: #ffffff;
+    margin: 20px;
+    text-transform: capitalize;
+    text-shadow: 4px 4px 6px aquamarine ;
+}
+
+.slider__item {
+    display: flex;
+    column-gap: 80px;
+    margin: 0 15px;
+    flex-shrink: 0;
+}
+.slider__object ,
+.slider__inform {
+    max-width: 250px;
+    max-height: 250px;
+}
+.slick-track {
+    display: flex;
+}
+
+.slick-list {
+    overflow: hidden;
+
+}
+
+.slick-arrow {
+width: 150px;
+height: 150px;
+font-size: 0 ;
+line-height: 0;
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.slick-arrow:hover {
+    opacity: 0.4;
+}
+
+.slick-prev {
+left: -170px;
+background-image: url(../img/slider/arrow-left.svg);
+}
+
+.slick-next {
+right: -170px;
+background-image: url(../img/slider/arraow-right.svg);
+
+}
+
+.slick-dots {
+display: flex;
+position: absolute;
+bottom: -40px;
+left: 50%;
+transform: translateX(-50%);
+column-gap: 10px;
+}
+
+.slick-dots button {
+    width: 15px;
+    height: 15px;
+    background-color: #ffffff;
+    font-size: 0 ;
+    line-height: 0;
+    border-radius: 50%;
+}
+
+.slick-active button {
+    background-color: #0f6965;
+    transform: scale(1.5);
+}
+
+.slider__discription {
+    font-size:26px ;
+    color: #ffffff;
+    
+}
+
+.about-game .slider__item {
+    text-align: center;
+    min-height: 300px;
+    background-size: contain;
+    padding-top: 100px;
+}
+
+.slider__item--first {
+    background-image:linear-gradient(180deg,rgba(0, 0, 0, 0.6) 0%,rgba(0, 0, 0, 0.6) 0.01%, rgba(18, 18, 21, 0.3) 100%),url("../img/about-game/hils.jpg");
+    
+}
+
+.slider__item--second {
+    background-size: cover;
+    background-image:linear-gradient(180deg,rgba(0, 0, 0, 0.6) 0%,rgba(0, 0, 0, 0.6) 0.01%, rgba(18, 18, 21, 0.3) 100%), url("../img/about-game/oven.jpeg");
+}
+
+.slider__item--third {
+    background-image: linear-gradient(180deg,rgba(0, 0, 0, 0.6) 0%,rgba(0, 0, 0, 0.6) 0.01%, rgba(18, 18, 21, 0.3) 100%), url("../img/about-game/repairing.jpeg");
+    width: 100%;
+}
+
+.slider__item--fourth {
+    background-image: linear-gradient(180deg,rgba(0, 0, 0, 0.6) 0%,rgba(0, 0, 0, 0.6) 0.01%, rgba(18, 18, 21, 0.3) 100%), url("../img/about-game/cooking.jpeg");
+    background-repeat: no-repeat;
+
+}
+
+.slider__item--fivth {
+    background-image: linear-gradient(180deg,rgba(0, 0, 0, 0.6) 0%,rgba(0, 0, 0, 0.6) 0.01%, rgba(18, 18, 21, 0.3) 100%), url("../img/about-game/charms.jpeg");
+    background-repeat: no-repeat;
+}
+
+/* footer */
+
+.main-footer {
+}
+
+.line {
+    margin: 20px 0;
+	padding: 0;
+	height: 40px;
+	border: none;
+	box-sizing: border-box;
+	background-position: 50%;
+	color: rgb(67, 128, 65);
+	background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="3px" height="3px" viewBox="0 0 3 3" fill="rgb(67, 128, 65)"><polygon points="0,0.5 0,1.5 1.5,3 2.5,3"></polygon><polygon points="2.5,0 1.5,0 3,1.5 3,0.5"></polygon></svg>');
+	background-size: 30px 30px;
+}
+
+.main-footer__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social-list {
+    display: flex;
+    column-gap: 30px;
+}
+
+.social-list__item {
+}
+
+/* Адаптив */
+
+@media (max-width:850px) {
+    .main-menu__item {
+        min-width: 130px;
+        text-align: center;
+    }
+    
+    .main-menu__holder-img {
+        display: block;
+        width: 70px;
+        margin: 0 auto;
+
+    }
+    
+    .main-menu__text {
+        color:#ffffff;
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .logo {
+        width: 200px;
+    }
+    
+
+}
+
+@media(max-width:768px) {
+    .slider {
+        width: 70%;
+    }
+
+    .slick-arrow {
+        display: none;
+    }
+
+    .about-game {
+        padding: 20px 0;
+    }
+
+    .slider__object ,
+.slider__inform {
+    max-width:180px;
+    max-height:180px;
+}
+}
+
+@media(max-width:650px) {
+    .discription__text {
+        font-size: 12px;
+    }
+
+    .social-list__item {
+        width: 40px;
+        height: 40px; 
+    }
+    
+    .slider__object ,
+    .slider__inform {
+        max-width: 120px;
+        max-height: 120px;
+
+}
+
+@media(max-width:510px) {
+    .main-header__bottom .container {
+        flex-direction: column;
+        row-gap: 16px;
+        padding: 5px 0;
+    }
+
+    
+}
+
+@media(max-width:425px) {
+    .main-footer__content {
+        flex-direction: column;
+        row-gap: 12px;
+    }  
+
+    .slider {
+        width: 100%;
+    }
+
+    .slider__discription {
+        font-size:18px ;
+    }
+
+    .main-title {
+        font-size: 20px;
+    }
+
+}
