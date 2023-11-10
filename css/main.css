@@ -23,8 +23,7 @@ body {
 }
 
 .main-header__bottom {
-    background-image: url("/img/header-back-g.png");
-}
+background-image: url("../img/header-back-g.png");}
 
 .main-header__bottom .container {
     display: flex;
